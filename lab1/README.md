@@ -12,3 +12,4 @@
 ***
 **9.** Змін не відбулось так як вони були зроблені в веб-версії для синхронізації використав команду git pull
 ***
+**10.** ![alt text](https://www.shutterstock.com/blog/wp-content/uploads/sites/5/2019/07/Man-Silhouette.jpg)
