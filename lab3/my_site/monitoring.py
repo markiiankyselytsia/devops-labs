@@ -4,8 +4,8 @@ import logging
 import time
 
 logging.basicConfig(
-#     filename="server.log",
-#     filemode='a',
+    filename="server.log",
+    filemode='a',
     level=logging.INFO,
     format='{levelname} {asctime} {name} : {message}',
     style='{'
