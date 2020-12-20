@@ -30,6 +30,6 @@ def main(url):
 if __name__ == '__main__':
     delay_secs = 60
     while True:
-        main("http://localhost:8000/health/")  
+        main("http://0.0.0.0:8000/health/")  
         time.sleep(delay_secs)
     
