@@ -1,0 +1,17 @@
+============================= test session starts ==============================
+platform linux -- Python 3.7.3, pytest-5.4.3, py-1.9.0, pluggy-0.13.1
+rootdir: /home/dmytro/devops_course/lab2
+collected 5 items
+
+tests/tests.py .....                                                     [100%]
+
+============================== 5 passed in 0.47s ===============================
+Доброї ночі
+========================================
+Результат без параметрів: 
+No URL passed to function
+========================================
+Результат з правильною URL: 
+Time is:  11:39:07 AM
+Date is:  01-03-2021
+success
