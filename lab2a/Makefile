@@ -4,16 +4,22 @@ all: install test run deploy
 
 install:
 	@echo "Installing pipenv and dependencies."
-	# Ваш код тут
+	pipenv --python 3.8
+	pipenv shell
+	pipenv install requests
+	pipenv install ntplib
+	pipenv install pytest
 
 test:
 	@echo "Start tests."
-	# Ваш код тут
+	pytest ./tests/tests.py >> results.txt
 
 run:
 	@echo "Run Python app."
-	# Ваш код тут
+	python app.py >> results.txt
 
 deploy:
 	@echo "Adding and Committing results.txt to git."
-	# Ваш код тут
+	git add results.txt
+	git commit -m "Update results.txt"
+	git push origin master

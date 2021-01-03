@@ -5,7 +5,7 @@
 **2.** Створив віртуальне середовище та встановив всі необхідні залежності командами 
 ```
 pip install pipenv
-pipenv --python 3.7
+pipenv --python 3.8
 pipenv shell
 pipenv install requests
 pipenv install ntplib
@@ -14,7 +14,7 @@ pipenv install pytest
 ***
 ***
 **3.** Реалізував функцію `home_work` та написав для неї юніттест
-**4.** Запустив `pytest ./tests/tests.py >> results.py` щоб перевірити чи тести проходять. І також вивів у файл результат прорами командою `python app.py >> results.txt `
+**4.** Запустив `pytest ./tests/tests.py >> results.txt` щоб перевірити чи тести проходять. І також вивів у файл результат прорами командою `python app.py >> results.txt `
 **5.** Запустив `python . --logs`. `--logs` означає програма буде використовувати логування(використовуючи вбудований модуль `logging`). Результат виконання:
 ```
 2020-11-28 16:38:34,881 root INFO: Тут буде просто інформативне повідомлення
