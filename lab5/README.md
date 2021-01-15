@@ -74,5 +74,5 @@
            
    - Завантажив створені імеджі до `Docker Hub`
       - docker-compose push
-      - [link](hhttps://hub.docker.com/repository/docker/markiiank/devops-labs-images):
+      - [link](https://hub.docker.com/repository/docker/markiiank/devops-labs-images):
 
